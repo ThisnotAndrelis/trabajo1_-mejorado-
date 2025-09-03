@@ -1,0 +1,15 @@
+venv/
+.env/
+*.env
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+/staticfiles/
+/media/
+
+ */migrations/*.py
+!*/migrations/__init__.py
